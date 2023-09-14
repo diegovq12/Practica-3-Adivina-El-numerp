@@ -28,7 +28,7 @@ int main()
     printf("Adivina el numero secreto: ");scanf("%d",&num);
     intentos++;
 
-     if (num==RandNum)
+    if (num==RandNum)
     {   
         printf("Felicidades! Adivinaste el numero en %d intentos\n",intentos);
     }
